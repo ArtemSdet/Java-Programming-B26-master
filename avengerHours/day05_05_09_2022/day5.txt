@@ -1,0 +1,40 @@
+Day 5 --> 05.09.2022
+
+        Topics :
+                 - Task 01 Abstraction
+                 - Practice-Constructors
+                 - Task 02 Java
+
+
+    Task 01 ; -Write an abstract class Animal that contains 2 instance variables: name and age.
+
+                *Provide getters and setters for these variables
+                *Add an abstract method getAgeInHumanYears() that returns int.
+                *Define 2 args constructor that initializes instance variables.
+
+
+
+              -Write a class Dog that extends the Animal class. Define 2 instance variables for this class: breed (String) and humanYears (int).
+
+                *Add a constructor that accepts three String parameters. The value of the first is used to initialize the value of name, the value of the second is used to initialize age and the value of the third is used to initialize breed.
+                ---Use super() to call parent constructor.
+
+                *Override toString() method, so it will display Dog info as in the example below:
+
+                ---Name: name Breed: breed Age in calendar years: years Age in human years: humanYears
+
+
+                *Also, implement getAgeInHumanYears method, so It will convert dogs age into humans age as follows:
+
+                    if the dog's age is less or equals to 2, multiple age by 11; otherwise, human years is equals to: 22 + ((age-2) * 5);
+
+                *Override the equals() method for the Dog class that returns true if the dog’s name, age, and breed match the same variables for the other object that is being compared.
+
+
+
+    Task 02 ;  Given an array of integers, write a function to return the item in the array, where the sum of all items on its left is equal to the sum of the ones on the right.
+
+                  For example :
+                          Given [4, 9, 1, 3, 6, 4]
+                          your function should give item 1, because 4+9 = 3+6+4
+

@@ -1,0 +1,37 @@
+Day 7 --> 05.23.2022
+
+        Topics : - OOP Review
+
+
+    Task 01;
+     -Create an Interface "VoiceCallable"
+        -instance variable : public static final boolean CAN_CALL=true;
+        -abstract method : void call(String contact)
+        -static method : void decline()
+        -default method : void accept()
+
+
+     - Create another Interface "VideoCallable"
+        -abstract method videoCall();
+
+
+     - Create an Abstract class "MessagingApp"
+        -instance variables : public String name, protected boolean isFree, boolean allOSCompatible, private int count
+        -static variable : public static final String APP_TYPE ;
+        -no-args constructor
+        -abstract method : void sendMessage(String msg)
+        -static method : void close()
+        -instance method : void launch()
+        -encapsulate the private variable (count)
+
+
+     -Create a "WhatsApp" class that inherits VoiceCallable,VideoCallable and MessagingApp
+        -implement required methods
+
+
+     -Create a "CallApp" class that inherits the VoiceCallable and MessagingApp
+        -implement the required methods
+
+
+     -Create a "CallCenter" runner class
+
